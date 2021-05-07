@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "674336723104",
+    "firebase_url": "https://gestrans-a7ca4.firebaseio.com",
+    "project_id": "gestrans-a7ca4",
+    "storage_bucket": "gestrans-a7ca4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:674336723104:android:cc88b391eb76badc",
+        "android_client_info": {
+          "package_name": "br.com.gestrans.gestorfinanceiro.gestrans"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "674336723104-bdpm1voh9p667rdhvh19bpc29msrtfv9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.gestrans.gestorfinanceiro.gestrans",
+            "certificate_hash": "42621c69c71e23e438f94b00b8671a1a9625f2a6"
+          }
+        },
+        {
+          "client_id": "674336723104-4hf8vo48qck06l72ufecnaaab5srnpip.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3n8-wYyreDWz4XN3ccGRzRnFA160HYo4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "674336723104-4hf8vo48qck06l72ufecnaaab5srnpip.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

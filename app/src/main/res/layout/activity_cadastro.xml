@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="gestrans.jonathasbrito.gestrans20182.activity.CadastroActivity">
+
+    <RelativeLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="13dp"
+            android:src="@drawable/img_usuario" />
+
+        <EditText
+            android:id="@+id/nomeCadId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:ems="10"
+            android:hint="Digite seu nome"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/emailCadId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/nomeCadId"
+            android:ems="10"
+            android:hint="Digite seu email"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/loginCadId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/emailCadId"
+            android:ems="10"
+            android:hint="Digite seu login"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/passConfId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/passCadId"
+            android:ems="10"
+            android:hint="Informe sua Senha"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/passCadId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/loginCadId"
+            android:ems="10"
+            android:hint="Confirme sua Senha"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/buttonCadastroId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:text="Cadastrar" />
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
